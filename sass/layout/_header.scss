@@ -1,0 +1,121 @@
+.home {
+    position: relative;
+    overflow: hidden;
+}
+
+.home.demo2 {
+	background: linear-gradient(to top, #ff975a 0%, #fc6765 100%);
+}
+
+.home:before,
+.home:after {
+	content: '';
+    position: absolute;
+    top: -37%;
+    left: -101px;
+    width: 474px;
+    z-index: -1;
+    height: 756px;
+    background: #f9d8c6;
+    border-radius: 50%;
+    -webkit-transform: rotate(36deg);
+    -moz-transform: rotate(36deg);
+    -o-transform: rotate(36deg);
+    -ms-transform: rotate(36deg);
+    transform: rotate(36deg);
+    opacity: .2;
+}
+
+.home.demo4:before {
+    top: -36%;
+    left: auto;
+    right: -86px;
+    width: 59%;
+    height: 140%;
+    background: #f79864;
+    -webkit-transform: rotate(-55deg);
+    -moz-transform: rotate(-55deg);
+    -o-transform: rotate(-55deg);
+    -ms-transform: rotate(-55deg);
+    transform: rotate(-55deg);
+	opacity: .23;
+}
+
+.home:after {
+    top: -38%;
+    left: -181px;
+    background: #f5a475;
+    opacity: .09;
+}
+
+.home.demo4:after {
+    content: none;
+}
+
+.home .home-content h5 {
+    position: relative;
+    color: #888;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    margin-bottom: 11px;
+}
+
+.home .home-content p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #888;
+    margin-bottom: 25px;
+}
+
+.home.demo2 .home-content h5 {
+    color: #f9f9ff;
+}
+
+.home .home-content h1 {
+	color: #3e3e3e;
+	font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 25px;
+	line-height: 1.2;
+}
+
+.home.demo2 .home-content h1 {
+    color: #fff3db;
+}
+
+.home.demo2 .home-content .main-btn {
+    background: #fff3db;
+    color: #ff975a;
+	border: 2px solid #fff3db;
+}
+
+.home .home-image {
+	padding-top: 130px;
+	-webkit-transform: translateX(-25px);
+    -moz-transform: translateX(-25px);
+    -o-transform: translateX(-25px);
+    -ms-transform: translateX(-25px);
+    transform: translateX(-25px);
+	position: relative;
+	z-index: 1;
+}
+
+.home.demo4 .home-image {
+	-webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.mini-man{
+    position: relative;
+    top: -206px;
+    left: -33px;
+    width: 8rem;
+}
+
+.logo{
+    margin-bottom: 4rem;
+}

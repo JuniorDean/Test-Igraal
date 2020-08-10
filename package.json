@@ -1,0 +1,19 @@
+{
+  "name": "igraal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "bootstrap-sweetalert": "^1.0.1",
+    "live-server": "^1.2.1",
+    "sweetalert2": "^9.17.1"
+  }
+}

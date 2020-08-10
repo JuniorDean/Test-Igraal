@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60.1 (101010) - https://sketch.com -->
+    <title>2927B118-5D9F-4EF3-BE76-0F6BC611BAF0</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Landing-Page-Extension" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-Unsupported-Browser" transform="translate(-692.000000, -2073.000000)">
+            <g id="Group-23" transform="translate(211.000000, 1960.000000)">
+                <g id="Group-21" transform="translate(357.000000, 113.000000)">
+                    <g id="merchant-icon" transform="translate(124.500000, 0.000000)">
+                        <circle id="Oval" fill="#FFF6E8" cx="26.5957031" cy="26.5957031" r="26.5957031"></circle>
+                        <g id="Group-25" transform="translate(12.500000, 23.000000)">
+                            <rect id="Rectangle" fill="#FDCC3E" x="3" y="0" width="24" height="15"></rect>
+                            <line x1="0.667073333" y1="15.45062" x2="29.0790067" y2="15.45062" id="Stroke-1" stroke="#FCA927" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></line>
+                            <rect id="Rectangle" stroke="#FCA927" stroke-width="2" fill="#FCA927" stroke-linejoin="round" x="7" y="6" width="4" height="9"></rect>
+                            <rect id="Rectangle" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" stroke-linejoin="round" x="16" y="6" width="7" height="5"></rect>
+                        </g>
+                        <g id="Group-24" transform="translate(13.123480, 13.624087)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                            <path d="M3.23093333,-1.46549439e-13 L25.272,-1.46549439e-13 L28.4492,7.40913333 C28.4821333,7.59113333 28.4977333,7.77833333 28.4977333,7.96986667 C28.4977333,9.7214 27.0781333,11.1418667 25.3266,11.1418667 C24.1366667,11.1418667 23.1001333,10.4866667 22.5576,9.51686667 C22.0142,10.4866667 20.9785333,11.1418667 19.7877333,11.1418667 C18.5978,11.1418667 17.5612667,10.4866667 17.0187333,9.51686667 C16.4753333,10.4866667 15.4396667,11.1418667 14.2497333,11.1418667 C13.0598,11.1418667 12.0232667,10.4866667 11.4807333,9.51686667 C10.9373333,10.4866667 9.9008,11.1418667 8.71086667,11.1418667 C7.52093333,11.1418667 6.4844,10.4866667 5.94186667,9.51686667 C5.39933333,10.4866667 4.3628,11.1418667 3.17286667,11.1418667 C1.42046667,11.1418667 1.33226763e-13,9.7214 1.33226763e-13,7.96986667 C1.33226763e-13,7.77833333 0.0173333333,7.59113333 0.0494,7.40913333 L3.23093333,-1.46549439e-13 Z" id="Stroke-9" stroke="#FCA927" fill="#FCA927"></path>
+                            <line x1="5.89437333" y1="7.26882667" x2="7.30357333" y2="1.26882667" id="Stroke-11" stroke="#FDCC3E"></line>
+                            <path d="M11.41348,7.26882667 C11.5703467,5.26863154 11.72548,3.26902179 11.8832133,1.26882667" id="Stroke-13" stroke="#FDCC3E"></path>
+                            <path d="M16.93172,7.26882667 C16.7748533,5.26863154 16.61972,3.26902179 16.4628533,1.26882667" id="Stroke-15" stroke="#FDCC3E"></path>
+                            <line x1="22.4508267" y1="7.26882667" x2="21.0416267" y2="1.26882667" id="Stroke-17" stroke="#FDCC3E"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

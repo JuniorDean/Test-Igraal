@@ -1,0 +1,128 @@
+.newsletter {
+    background: #f9f9ff;
+}
+
+.newsletter .newsletter-inner {
+    background-image: linear-gradient(to right, #612a85, #4138a3);
+
+    padding: 60px 40px;
+    border-radius: 7px;
+    margin-bottom: 10rem;
+}
+
+.newsletter .newsletter-inner h2 {
+	font-size: 35px;
+    letter-spacing: .2px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.newsletter .newsletter-inner h3 {
+	font-size: 30px;
+    letter-spacing: .2px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.newsletter .newsletter-inner p {
+	font-size: 15px;
+	color: #b8bfc7;
+    margin: 0;
+}
+
+.newsletter .newsletter-inner .form-group {
+   	margin: 0;
+    margin-top: 4px;
+	overflow: hidden;
+}
+
+.newsletter .newsletter-inner .form-control {
+    float: left;
+    width: 70%;
+    margin-right: 3%;
+    color: #777;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    padding: 12px 30px;
+    background: #f9f9ff;
+    box-shadow: 0 0 10px 0 rgba(252, 103, 101, .1);
+}
+
+.newsletter .newsletter-inner .main-btn {
+    float: left;
+    width: 27%;
+	min-width: 155px;
+    margin: 0;
+}
+
+
+.newsletter-two .newsletter-two-inner {
+    background: linear-gradient(
+    to right,
+    rgba(255, 179, 3, 0.767),
+    rgba(255, 251, 0, 0.678)
+  ),url(../img/Icon-Pattern-l.jpg);
+
+    padding-top: 3rem;
+    padding: 6rem;
+    padding-bottom: 1rem;
+    border-radius: 7px;
+    margin-bottom: 10rem;
+}
+
+.newsletter-two .newsletter-two-inner h2 {
+	font-size: 35px;
+    letter-spacing: .2px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.newsletter-two .newsletter-two-inner h3 {
+	font-size: 30px;
+    letter-spacing: .2px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.newsletter-two .newsletter-two-inner p {
+	font-size: 15px;
+	color: #000;
+	margin: 0;
+}
+
+.newsletter-two .newsletter-two-inner a {
+	font-size: 13px;
+	color: #000;
+    margin: 0;
+    text-decoration: underline;
+    display: inline-block;
+}
+
+.newsletter .newsletter-inner .form-group {
+   	margin: 0;
+    margin-top: 4px;
+	overflow: hidden;
+}
+
+.newsletter-two .newsletter-two-inner .form-control {
+    float: left;
+    width: 70%;
+    margin-right: 3%;
+    color: #777;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    height: 50px;
+    padding: 12px 30px;
+    background: #f9f9ff;
+    box-shadow: 0 0 10px 0 rgba(252, 103, 101, .1);
+}
+
+.newsletter-two .newsletter-two-inner .main-btn {
+    float: left;
+    width: 27%;
+	min-width: 155px;
+    margin: 0;
+}

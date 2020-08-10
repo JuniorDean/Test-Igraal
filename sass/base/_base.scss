@@ -1,0 +1,442 @@
+* {
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+	background-color: #f7f7f7;
+}
+
+
+
+/* --------------------------------------
+   19. Media Queries
+-----------------------------------------*/
+
+/* Extra Large Devices */
+@media (min-width: 1200px) {
+ 
+    .newsletter-alert{
+        display: none;
+    }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    /*=========== Home ============*/
+	.home.demo4:before {
+		right: -132px;
+		width: 72%;
+	}
+	
+    .home .home-content h1 {
+		font-size: 55px;
+	}
+	
+	.home .home-content .main-btn {
+		min-width: 165px;
+	}
+	
+	.home .home-image {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		-ms-transform: translateX(0);
+		transform: translateX(0);
+	}
+	
+	.home .home-image img {
+		display: block;
+		max-width: 100%;
+		height: 100%;
+	}
+	
+    /*=========== About us ============*/
+	.about-us .about-info .main-title,
+	.about-us .about-info p {
+		margin-bottom: 20px;
+    }
+	
+    /*=========== Newsletter ============*/
+	.newsletter .newsletter-inner h2 {
+		font-size: 25px;
+		letter-spacing: 0;
+	}
+	
+	.newsletter .newsletter-inner .form-group {
+		margin-top: 0;
+	}
+	
+	.newsletter .newsletter-inner .form-control {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+		height: 60px;
+	}
+	
+	.newsletter .newsletter-inner .main-btn {
+		float: none;
+		width: auto;
+		position: absolute;
+		top: 50%;
+		right: 22px;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+    }
+      
+    .newsletter-alert{
+        display: none;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+	/*=========== Home ============*/
+	.shape:before,
+	.shape2:before {
+		left: 0;
+	}
+	
+	.shape2:before {
+		left: auto;
+	}
+	
+	.home.demo4:before {
+		content: none;
+	}
+	
+    .home .home-content h1 {
+		font-size: 32px;
+	}
+	
+	.home .home-content .main-btn {
+		margin-bottom: 15px;
+	}
+	
+	.home .home-image {
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-o-transform: translateX(0);
+		-ms-transform: translateX(0);
+		transform: translateX(0);
+	}
+	
+	.home .home-image img {
+		display: block;
+		max-width: 100%;
+		height: 100%;
+	}
+	
+    
+    /*=========== About Us ============*/
+    .about-us .about-image {
+        margin-right: 110px;
+        margin-left: 110px;
+        margin-bottom: 25px;
+    }
+	
+	
+    /*=========== Newsletter ============*/
+	.newsletter .newsletter-inner .form-group {
+		margin-top: 20px;
+    }
+    
+    .newsletter-alert{
+        display: none;
+    }
+
+    .newsletter .newsletter-inner h3 {
+        text-align: center;
+	}
+	
+	.newsletter .newsletter-inner p {
+        font-size: 14px;
+        text-align: center;
+	}
+	
+    /*=========== Footer ============*/
+	.footer .footer-top .footer-menu {
+		margin-bottom: 30px;
+	}
+	
+	.footer .footer-top .social-media li i {
+		width: 30px;
+		height: 30px;
+		line-height: 28px;
+		font-size: 16px;
+	}
+}
+
+/* Small Devices */
+@media (max-width: 767.98px) {
+    
+    .container {
+        max-width: 540px;
+    }
+	
+    /*=========== Home ============*/
+	.home.demo4:before {
+		content: none;
+	}
+	
+    
+    /*=========== About Us ============*/
+    .about-us {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+	
+	.about-us .about-image {
+		overflow: hidden;
+	}
+    
+    .about-us .about-info .main-title {
+		margin-top: 15px;
+		margin-bottom: 20px;
+	}
+	
+	.about-us .about-info p {
+		margin-bottom: 20px;
+	}
+	
+	.about-us .about-info .about-list li {
+		line-height: 1.9;
+	}
+	
+	/*=========== Newsletter ============*/
+	.newsletter .newsletter-inner {
+		padding: 40px 25px;
+	}
+	
+	.newsletter .newsletter-inner p {
+		margin-bottom: 20px;
+	}
+	
+	.newsletter .newsletter-inner .form-group {
+		margin-top: 0;
+	}
+	
+	.newsletter .newsletter-inner .form-control {
+		float: none;
+		width: 100%;
+		margin-right: 0;
+		height: 55px;
+	}
+	
+	.newsletter .newsletter-inner .main-btn {
+		float: none;
+		width: auto;
+		position: absolute;
+		top: 50%;
+		right: 18px;
+		-webkit-transform: translateY(-50%);
+		-moz-transform: translateY(-50%);
+		-o-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+    }
+    
+    .newsletter .newsletter-inner h3 {
+        text-align: center;
+	}
+	
+	.newsletter .newsletter-inner p {
+        font-size: 14px;
+        text-align: center;
+	}
+	
+	/*=========== Footer ============*/
+	.footer .footer-top {
+		padding-bottom: 50px;
+	}
+	
+	.footer .footer-top .footer-menu {
+		margin-bottom: 30px;
+	}
+	
+	.footer .footer-top .social-media li i {
+		width: 30px;
+		height: 30px;
+		line-height: 28px;
+		font-size: 16px;
+    }
+    
+    .newsletter-two{
+        display: block;
+    }
+
+    .newsletter-alert{
+        display: none;
+    }
+
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+    .main-title h2 {
+        font-size: 24px;
+    }
+	
+	.main-title h3 {
+		font-size: 15px;
+    	line-height: 1.4;
+	}
+    
+    /*=========== Home ============*/
+    .home .home-content h1 {
+		font-size: 38px;
+		line-height: 1.3;
+	}
+	
+	.home .home-content .main-btn {
+		margin-bottom: 15px;
+    }
+	
+    /*=========== About Us ============*/
+    .about-us .about-info p,
+	.about-us .about-info .about-list li {
+		font-size: 15px;
+	}
+  
+    .newsletter-two{
+        display: none;
+    }
+    
+    .newsletter-alert{
+        display: block;
+        padding-top: 3rem;
+        padding: 6rem;
+        padding-bottom: 1rem;
+        border-radius: 7px;
+        margin-bottom: 4rem;
+        background-color: #fef7f7;
+        border-style: solid;
+        border-color: coral;
+    }
+
+    .my-btn{
+        display: none;
+    }
+	
+	/*=========== Newsletter ============*/
+	.newsletter .newsletter-inner h2 {
+        font-size: 20px;
+    }
+    
+    .newsletter .newsletter-inner h3 {
+        text-align: center;
+	}
+	
+	.newsletter .newsletter-inner p {
+        font-size: 14px;
+        text-align: center;
+	}
+	
+	.newsletter .newsletter-inner .main-btn {
+		position: static;
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		margin-top: 20px;
+    }
+	
+	/*=========== Footer ============*/
+	.footer .footer-top .footer-menu {
+		float: none;
+		width: 100%;
+	}
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+    .main-title h2 {
+        font-size: 24px;
+    }
+	
+	.main-title h3 {
+		font-size: 15px;
+    	line-height: 1.4;
+	}
+    
+    /*=========== Home ============*/
+    .home .home-content h1 {
+		font-size: 38px;
+		line-height: 1.3;
+	}
+	
+	.home .home-content .main-btn {
+		margin-bottom: 15px;
+    }
+	
+    /*=========== About Us ============*/
+    .about-us .about-info p,
+	.about-us .about-info .about-list li {
+		font-size: 15px;
+	}
+  
+    .newsletter-two{
+        display: none;
+    }
+    
+    .newsletter-alert{
+        display: block;
+        padding-top: 3rem;
+        padding: 6rem;
+        padding-bottom: 1rem;
+        border-radius: 7px;
+        margin-bottom: 4rem;
+        background-color: #fef7f7;
+        border-style: solid;
+        border-color: coral;
+    }
+
+    .my-btn{
+        display: none;
+    }
+	
+	/*=========== Newsletter ============*/
+	.newsletter .newsletter-inner h2 {
+        font-size: 20px;
+    }
+    
+    .newsletter .newsletter-inner h3 {
+        text-align: center;
+	}
+	
+	.newsletter .newsletter-inner p {
+        font-size: 14px;
+        text-align: center;
+	}
+	
+	.newsletter .newsletter-inner .main-btn {
+		position: static;
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		margin-top: 20px;
+    }
+	
+	/*=========== Footer ============*/
+	.footer .footer-top .footer-menu {
+		float: none;
+		width: 100%;
+	}
+}
